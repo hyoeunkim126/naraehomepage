@@ -30,7 +30,7 @@
        
     }
     .devices ul li:nth-child(even){
-        background-color: #ebecec;
+        background-color: #f4f4f4;
     }
     
     .devices ul li .txt-wrap{
