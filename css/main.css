@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@font-face {
+        font-family: 'Pretendard-Regular';
+        src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+    }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap'); 
+
+
+@media (min-width:850px) {
+    body {
+       width: 1250px;
+       margin: 0 auto;
+      }
+   
+    .devices ul{
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       
+    }
+    .devices ul li{
+       display: flex;
+       width: 100%;
+       height: 400px;
+       
+    }
+    .devices ul li:nth-child(even){
+        background-color: #ebecec;
+    }
+    .devices ul li .txt-wrap{
+       width: 50%;
+       
+    }
+    .devices ul li .txt-wrap{
+        width: 50%;
+        padding: 30px;
+        
+     }
+     .devices ul li .txt-wrap .dev-tit{
+        font-size: 35px;
+        font-weight: 750;
+        color: #4165d7;
+     }
+     .devices ul li .txt-wrap h3{
+        font-size: 25px;
+        padding-bottom: 30px;
+     }
+
+     .devices ul li .txt-wrap p{
+        font-size: 20px;
+        padding-bottom: 10px;
+     }
+     .devices ul li .img-wrap{
+        width: 50%;
+     }
+     .devices ul li .img-wrap img{
+        width: 100%;
+     }
+}
