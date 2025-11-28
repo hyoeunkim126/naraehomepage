@@ -56,9 +56,11 @@
      }
      .devices ul li .img-wrap{
         width: 50%;
+        background-size: contain;
      }
      .devices ul li .img-wrap img{
-        width: 90%;
-        background-size: contain;
+      width: 100%;
+      height: 100%;
+      object-fit: scale-down;
      }
 }
