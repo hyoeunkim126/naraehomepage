@@ -12,10 +12,30 @@
 
 @media (min-width:850px) {
     body {
-       width: 1250px;
+       width: 100%;
        margin: 0 auto;
       }
-   
+  
+   #header{width: 100%; border-bottom: 1px solid #d7d7d7; 
+       position: fixed; background-color: #fff;
+       z-index: 1;}
+   .top{width: 1200px; margin: 20px auto; display: flex; 
+      justify-content: space-between;
+      align-items: center;}
+   .logo{ width: 200px;}
+   .logo img{width: 100%;}
+   .top nav{width: 800px;}
+   .menu{display: flex; justify-content: space-between;}
+   .menu li a{color: #000;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+   .sub_menu{ display: none;
+   }
+
+   .devices{
+      width: 1280px;
+      margin: 0 auto;
+   }
     .devices ul{
        width: 100%;
        display: flex;
