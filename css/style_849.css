@@ -38,9 +38,9 @@
 
        
     }
-    .devices ul li:nth-child(even){
+    /* .devices ul li:nth-child(even){
         background-color: #f4f4f4;
-    }
+    } */
     
     .devices ul li .txt-wrap{
         width: 100%;
@@ -65,10 +65,11 @@
      }
      .devices ul li .img-wrap{
         width: 100%;
+        display: flex;
+        justify-content: center;
      }
      .devices ul li .img-wrap img{
-         width: 100%;
-         height: 100%;
-         object-fit: scale-down;
+         max-width: 70%;
+         height: auto;
      }
 }
